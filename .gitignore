@@ -250,3 +250,6 @@ paket-files/
 # JetBrains Rider
 .idea/
 *.sln.iml
+/Exercises on 算法竞赛入门经典.sln
+/Exercises on BeginningAlgorithmContests/Exercises on 算法竞赛入门经典.vcxproj.filters
+/Exercises on BeginningAlgorithmContests/Exercises on 算法竞赛入门经典.vcxproj
