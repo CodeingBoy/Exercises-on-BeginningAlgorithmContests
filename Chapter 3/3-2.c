@@ -1,6 +1,7 @@
 // Exercise 3-2 WERTYU
 // UVa 10082
 // For more information, see problem 10082 on Uva Online Judge
+// Language: C(C99)
 
 #include <stdio.h>
 #include <string.h>

@@ -1,6 +1,7 @@
 // Exercise 3-1 TEX Quotes
 // UVa 272
 // For more information, see problem 272 on Uva Online Judge
+// Language: C(C99)
 
 #include <stdio.h>
 #include <string.h>

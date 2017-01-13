@@ -1,6 +1,7 @@
 // Exercise 3-3 Palindrome
 // UVa 401
-// // For more information, see problem 401 on Uva Online Judge
+// For more information, see problem 401 on Uva Online Judge
+// Language: C(C99)
 
 #include <stdio.h>
 #include <string.h>
