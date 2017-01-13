@@ -1,6 +1,7 @@
 // Exercise 3-5 Digit Generator
 // UVa 1583
 // For more information, see problem 1583 on UVa Online Judge.
+// Language: C(C99)
 
 #include <stdio.h>
 

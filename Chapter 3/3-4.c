@@ -1,6 +1,7 @@
 // Exercise 3-4 Master-Mind Hints
 // UVa 340
 // For more information, see problem 340 on UVa Online Judge
+// Language: C(C99)
 
 #include <stdio.h>
 #include <stdbool.h>
