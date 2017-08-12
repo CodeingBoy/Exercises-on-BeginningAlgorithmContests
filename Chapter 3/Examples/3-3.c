@@ -47,14 +47,25 @@ bool IsPalindromeString(char str[]){
 
 bool IsMirroredString(char str[]){
 	int len = strlen(str);
+    // wondering why loop needs iterate (len/2)+1 times?
+    // because the middle character needs to be a mirror character(e.g. M O Y)
+    // if middle character is not a mirror character, like N B, we need to refuse it
+    // the purpose of +1 is detect the middle character is whether mirror character or not
 	for(int i = 0;i < len/2 + 1;i++){
 		int index = 0;
+        // search for mirror character
 		while(index < strlen(original)){
 			if (original[index] == str[i]){
 				break;
 			}
 			index++;
 		}
+        // seems I did not handle character is not exist in mirror character table
+        if(index >= strlen(original)){
+            return false;
+        }
+
+        // detect if they are not same
 		if(str[len-1-i]!=mirrored[index]){
 			return false;
 		}
