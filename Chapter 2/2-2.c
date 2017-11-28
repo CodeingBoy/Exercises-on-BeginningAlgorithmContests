@@ -19,7 +19,7 @@ int main(void)
 		// using Chinese remainder theorem to solve the problem
 		// see https://en.wikipedia.org/wiki/Chinese_remainder_theorem for more information
 
-		int total = a*70+b*21+c*50;
+		int total = a*70+b*21+c*15;
 		total %= 105;
 
 		printf("Case %d: ",kase);
